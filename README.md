@@ -21,3 +21,8 @@
 		Makes the model more robust by shrinking the weights on each step
 ```
 * max_depth[default=6]```	The maximum depth of a tree, same as GBM.	Used to control over-fitting as higher depth will allow model to learn relations very specific to a particular sample.	Should be tuned using CV.```
+
+**Reference**
+
+* Python Code link : https://github.com/dmlc/xgboost/blob/master/demo/guide-python/cross_validation.py
+* Data Source link : https://www.kaggle.com/c/malware-classification
